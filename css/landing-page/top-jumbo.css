@@ -1,0 +1,98 @@
+#top-jumbo{
+  padding: 0px 0 400px;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffffff 37%, #8e8e8e 65%, #8e8e8e 100%, #ffffff 100%, #8e8e8e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ffffff 37%,#8e8e8e 65%,#8e8e8e 100%,#ffffff 100%,#8e8e8e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ffffff 37%,#8e8e8e 65%,#8e8e8e 100%,#ffffff 100%,#8e8e8e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#top-jumbo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#top-jumbo .left-side{
+width: 50%;
+display: inline-block;
+float: left;
+
+}
+#top-jumbo .left-side .large-number{
+font-size: 300px;
+font-weight: 700;
+opacity: .1;
+color: #595959;
+position: relative;
+left: -24px;
+z-index: 1;
+top: -20px;
+
+}
+#top-jumbo .left-side .info-container{
+  position: relative;
+  top: 144px;
+top: -110px;
+}
+#top-jumbo .left-side .info-container h1{
+color: #595959;
+font-size: 4rem;
+text-transform: capitalize;
+bottom: -14px;
+}
+#top-jumbo .left-side .info-container p{
+  font-size: 1.2rem;
+  line-height: 2;
+color: #0583F2;
+font-weight: bold;
+text-transform: capitalize;
+margin-top: 1rem;
+}
+
+#top-jumbo .left-side .info-container .email-area{
+background: white;
+border-radius: 50px;
+background: white;
+margin-top: 1rem;
+display: inline-block;
+padding: 10px;
+}
+#top-jumbo .left-side .info-container .email-area .far{
+font-size: 2rem;
+position: relative;
+top: 7px;
+margin-left: 15px;
+color: #d5e2ea;
+}
+#top-jumbo .left-side .info-container .email-area input[type="email"]{
+text-transform: uppercase;
+padding: 10px ;
+font-size: 1rem;
+background: white;
+border: none;
+width: 211px;
+}
+#top-jumbo .left-side .info-container .email-area button{
+background-color: #0583F2 !important;
+text-transform: uppercase;
+padding: 15px  36px;
+color: white;
+font-size: 1rem;
+border-radius: 50px;
+border: none;
+
+}
+#top-jumbo .right-side{
+  width: 50%;
+  display: inline-block;
+ float: left;
+ padding: 0 40px;
+}
+#top-jumbo .right-side img{
+  width: 95%;
+  /* top: 50px; */
+  position: relative;
+  /* margin-left: 80px; */
+
+
+
+}
+/* #005778 */

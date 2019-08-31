@@ -1,0 +1,90 @@
+#blue-print{
+  background: rgb(76,163,239); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(76,163,239,1) 1%, rgba(0,130,229,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(76,163,239,1) 1%,rgba(0,130,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(76,163,239,1) 1%,rgba(0,130,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  padding: 170px 0;
+  color: #fff;
+}
+#blue-print .container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#blue-print  .left-side {
+  width: 60%;
+  float: left;
+}
+#blue-print  .left-side img{
+width: 75%;
+}
+#blue-print  .right-side {
+  width: 40%;
+float: left;
+}
+#blue-print  .right-side h1{
+font-size: 4rem;
+font-weight: 700;
+text-transform: capitalize;
+margin-bottom: 70px;
+line-height: 1.5;
+}
+#blue-print .right-side .info-box {
+  padding: 0 0 100px;
+}
+#blue-print .right-side .info-box:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+#blue-print .right-side .info-box .col-1{
+width: 40%;
+float: left;
+}
+#blue-print .right-side .info-box .col-1 .icon-container{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+border: 5px solid white;
+position: relative;
+
+}
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+border: 2px dashed white;
+margin: 0 auto;
+top: 6px;
+left: 5px;
+position: absolute;
+
+}
+#blue-print .right-side .info-box .col-1 .icon-container .fas, #blue-print .right-side .info-box .col-1 .icon-container .fab{
+
+font-size: 4rem;
+position: absolute;
+top: 22px;
+left: 34px;
+}
+
+
+#blue-print .right-side .info-box .col-2{
+width: 60%;
+float: left;
+}
+#blue-print .right-side .info-box .col-2 h3{
+font-size: 2rem;
+margin-bottom: 20px;
+margin-top: 1px;
+}
+#blue-print .right-side .info-box .col-2 p{
+font-size: 1rem;
+margin-bottom: 15px;
+}
+#blue-print .right-side .info-box .col-2  a{
+color: #F29336;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: 800;
+}
